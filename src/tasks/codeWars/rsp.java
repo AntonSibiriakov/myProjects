@@ -3,11 +3,9 @@ package tasks.codeWars;
 public class rsp {
     public static String rps(String p1, String p2) {
         //камень ножницы бумага
-        //
         if (p1.equals(p2)) {
             return "Draw!";
         }
-
         int p1Int = rspInt(p1);
         int p2Int = rspInt(p2);
         int tot = p1Int+p2Int;
@@ -20,7 +18,6 @@ public class rsp {
         }
         return null;
     }
-
     public static int rspInt(String str) {
         if (str.equals("rock")) {
             return 1;

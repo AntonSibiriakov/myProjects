@@ -8,7 +8,5 @@ public class areaOrPerimeter {
     else {
         return (l+w)*2;
     }
-
-}
-
+    }
 }
